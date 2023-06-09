@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init_free.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maclara- <maclara-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: msariasl <msariasl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/11 12:36:05 by maclara-          #+#    #+#             */
-/*   Updated: 2023/04/17 13:35:02 by maclara-         ###   ########.fr       */
+/*   Updated: 2023/05/31 14:06:31 by msariasl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,8 +67,8 @@ int	init_mutex(t_pd *pdinner)
 		i++;
 	}
 	if (i-- != (int)pdinner->nbr_philo || \
-	pthread_mutex_init(&pdinner->msg, NULL) || \
-	pthread_mutex_init(&pdinner->mstop, NULL))
+		pthread_mutex_init(&pdinner->msg, NULL) || \
+		pthread_mutex_init(&pdinner->mstop, NULL))
 	{
 		while (i >= 0)
 			pthread_mutex_destroy(&pdinner->fork[i--]);

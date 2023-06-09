@@ -1,10 +1,13 @@
-NAME	= philo
+NAME	= philosophers
 FLAGS	= -Wall -Wextra -Werror
+
+$(NAME): all
 
 all: *.c *.h
 	gcc *.c -o $(NAME)
 
-$(NAME): all
+test: all
+	./$(NAME) 100 300 200 100
 
 clean:
 	rm -rf *.o
