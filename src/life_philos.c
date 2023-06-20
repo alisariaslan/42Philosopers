@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   life_philos.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maclara- <maclara-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: msariasl <msariasl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/11 16:46:12 by maclara-          #+#    #+#             */
-/*   Updated: 2023/04/17 16:17:50 by maclara-         ###   ########.fr       */
+/*   Created: 2023/06/11 19:33:47 by msariasl          #+#    #+#             */
+/*   Updated: 2023/06/11 19:33:48 by msariasl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philosophers.h"
 
 int	life(t_philo *philo, char *event)
 {

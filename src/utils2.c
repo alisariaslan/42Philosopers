@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   utils2.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maclara- <maclara-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: msariasl <msariasl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/13 15:18:48 by maclara-          #+#    #+#             */
-/*   Updated: 2023/04/14 17:03:20 by maclara-         ###   ########.fr       */
+/*   Created: 2023/06/11 19:33:23 by msariasl          #+#    #+#             */
+/*   Updated: 2023/06/11 19:33:29 by msariasl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philosophers.h"
 
 int	ft_strcmp(char *s1, char *s2)
 {

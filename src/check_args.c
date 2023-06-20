@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   check_args.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maclara- <maclara-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: msariasl <msariasl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/11 07:06:16 by maclara-          #+#    #+#             */
-/*   Updated: 2023/04/14 17:26:21 by maclara-         ###   ########.fr       */
+/*   Created: 2023/06/11 19:33:54 by msariasl          #+#    #+#             */
+/*   Updated: 2023/06/11 19:33:55 by msariasl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philosophers.h"
 
 int	check_args(int argc, char **argv)
 {

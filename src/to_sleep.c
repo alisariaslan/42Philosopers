@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   to_sleep.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maclara- <maclara-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: msariasl <msariasl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/11 19:32:59 by maclara-          #+#    #+#             */
-/*   Updated: 2023/04/17 13:20:47 by maclara-         ###   ########.fr       */
+/*   Created: 2023/06/11 19:33:40 by msariasl          #+#    #+#             */
+/*   Updated: 2023/06/11 19:33:42 by msariasl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philosophers.h"
 
 void	to_sleep(time_t microsec, t_pd *pdinner)
 {

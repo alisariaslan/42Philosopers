@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maclara- <maclara-@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: msariasl <msariasl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/04 19:17:49 by maclara-          #+#    #+#             */
-/*   Updated: 2023/04/17 14:12:27 by maclara-         ###   ########.fr       */
+/*   Created: 2023/05/30 16:05:10 by msariasl          #+#    #+#             */
+/*   Updated: 2023/06/11 19:32:41 by msariasl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philosophers.h"
 
 time_t	get_time(void)
 {
@@ -48,7 +48,7 @@ int	main(int argc, char **argv)
 		return (-1);
 	if (ft_atoi(argv[1]) == 1)
 		return (only_one(argv), -3);
-	pdinner = (t_pd *) ft_calloc(1, sizeof(t_pd));
+	pdinner = (t_pd *)ft_calloc(1, sizeof(t_pd));
 	if (!init_struct(pdinner, argv))
 		return (-1);
 	if (!init_mutex(pdinner))

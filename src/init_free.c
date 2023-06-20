@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: msariasl <msariasl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/11 12:36:05 by maclara-          #+#    #+#             */
-/*   Updated: 2023/05/31 14:06:31 by msariasl         ###   ########.fr       */
+/*   Created: 2023/06/11 19:33:51 by msariasl          #+#    #+#             */
+/*   Updated: 2023/06/11 19:33:52 by msariasl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philosophers.h"
 
 void	init_philo(t_pd	*pdinner)
 {
